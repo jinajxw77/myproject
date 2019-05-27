@@ -1,0 +1,14 @@
+
+server:
+  port: 20001
+spring:
+  application:
+    name: cboot-eureka-server
+eureka:
+  instance:
+    hostname: server2
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+       defaultZone: http://server1:20000/eureka/

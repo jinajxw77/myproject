@@ -4,7 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/base/pom.xml" />
+        <option value="$PROJECT_DIR$/base/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/base/eurekaserver2/pom.xml" />
+        <option value="$PROJECT_DIR$/base/eurekaclient1/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
