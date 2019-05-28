@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="eurekaclient1" />
+        <module name="eurekaclient2" />
         <module name="eurekaserver" />
         <module name="eurekaserver2" />
       </profile>
@@ -16,6 +17,7 @@
       <module name="base" target="1.8" />
       <module name="demo" target="1.5" />
       <module name="eurekaclient1" target="1.8" />
+      <module name="eurekaclient2" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="eurekaserver2" target="1.8" />
     </bytecodeTargetLevel>
