@@ -3,8 +3,16 @@ server:
   port: 30001
 spring:
   application:
-    name: cboot-eureka-client
+    name: cboot-eureka-client1
 eureka:
   client:
     service-url:
        defaultZone: http://127.0.0.1:20001/eureka/
+feign:
+  hystrix:
+    enabled: true # feign启用fallback机制
+  client:
+      config:
+        feignName:
+          connectTimeout: 50000
+          readTimeout: 50000

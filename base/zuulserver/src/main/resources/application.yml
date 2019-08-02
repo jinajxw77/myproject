@@ -1,0 +1,33 @@
+server:
+  port: 30000
+spring:
+  application:
+    name: cboot-zuul-server
+eureka:
+  client:
+    service-url:
+       defaultZone: http://127.0.0.1:20001/eureka/
+zuul:
+  routes:
+    #����������path�󶨷�������
+    client2:
+      path: /2/**
+      serviceId: cboot-eureka-client2
+    #���������Ƿ������ư󶨵�ַ
+    cboot-eureka-client1: /1/**
+#��������������ribbon��ӳ��
+#ribbon:
+#  eureka:
+#    enabled: false #��eureka�н��� ribbon �ĸ��ؾ���
+#provider-user: #������serviceId��Ӧ�ķ���ָ��ribbon���ؾ���,��ListOfServers���õĵ�ַ��ѡ��,������ŷָ�
+#  ribbon:
+#    listOfServers: http://localhost:30002/,http://localhost:30001/
+
+ignored-services: cboot-eureka-client2
+host:
+    connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
+    socket-timeout-millis: 60000   #socket超时
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+

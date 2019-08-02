@@ -4,12 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/common/common.iml" filepath="$PROJECT_DIR$/base/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/configclient/configclient.iml" filepath="$PROJECT_DIR$/base/configclient/configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/configserver/configserver.iml" filepath="$PROJECT_DIR$/base/configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/eurekaclient1/eurekaclient1.iml" filepath="$PROJECT_DIR$/base/eurekaclient1/eurekaclient1.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/eurekaclient2/eurekaclient2.iml" filepath="$PROJECT_DIR$/base/eurekaclient2/eurekaclient2.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/base/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/eurekaserver2/eurekaserver2.iml" filepath="$PROJECT_DIR$/base/eurekaserver2/eurekaserver2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base/common/mq/mq.iml" filepath="$PROJECT_DIR$/base/common/mq/mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/hyhixserver/hyhixserver.iml" filepath="$PROJECT_DIR$/base/hyhixserver/hyhixserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/myproject.iml" filepath="$PROJECT_DIR$/.idea/myproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/zuulserver/zuulserver.iml" filepath="$PROJECT_DIR$/base/zuulserver/zuulserver.iml" />
     </modules>
   </component>
 </project>

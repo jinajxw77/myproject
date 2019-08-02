@@ -1,0 +1,10 @@
+server:
+  port: 40001
+spring:
+  cloud:
+    config:
+      uri: http://localhost:40000 # config-server\u5730\u5740,\u914D\u7F6Eserver\u76F8\u5173\u7684\u5C5E\u6027\u5E94\u8BE5\u653E\u5230 bootstrap.yml \u4E2D,bootstrap.yml\u4F1A\u5728\u52A0\u8F7Dapplication.yml\u4E4B\u524D\u52A0\u8F7D
+      profile: dev
+      label: master #\u5F53\u4F7F\u7528 git \u7684\u65F6\u5019 lable \u9ED8\u8BA4\u662F master
+  application:
+    name: config

@@ -7,22 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
+        <module name="configclient" />
+        <module name="configserver" />
         <module name="eurekaclient1" />
         <module name="eurekaclient2" />
         <module name="eurekaserver" />
         <module name="eurekaserver2" />
-        <module name="mq" />
+        <module name="hyhixserver" />
+        <module name="zuulserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base" target="1.8" />
       <module name="common" target="1.8" />
+      <module name="configclient" target="1.8" />
+      <module name="configserver" target="1.8" />
       <module name="demo" target="1.5" />
       <module name="eurekaclient1" target="1.8" />
       <module name="eurekaclient2" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="eurekaserver2" target="1.8" />
+      <module name="hyhixserver" target="1.8" />
       <module name="mq" target="1.8" />
+      <module name="zuulserver" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
